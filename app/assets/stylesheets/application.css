@@ -20,6 +20,7 @@
 }
 
 body {
+  font-size: 13px;
   margin: 33px;
 }
 
@@ -40,22 +41,42 @@ p {
   margin: 34px;
 }
 
-
+.update-button {
+  margin: 0 0 10px;
+}
 
 th {
+  font-size: 13px;
   width: auto;
-  padding: 1px 1px 
+  padding: 1px 1px 5px;
   text-align: center
 }
 
 td {
+  font-size: 13px;
   padding: 1px 5px 7px;
   text-align: left;
 }
 
+
+
 label {
   display: block;
   font-size: 13px;
+}
+
+a {
+  font-size: 13px;
+  color: #000000;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: white;
+  background-color: #000000;
 }
 
 .flash-successfully {
