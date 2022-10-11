@@ -40,21 +40,28 @@ p {
   margin: 34px;
 }
 
-table {
-  display: table;
-  box-sizing: border-box;
-}
 
-thead {
-  display: table-cell;
-  text-align: center;
-}
 
-thead, tbody, th, td {
+th {
   width: auto;
+  padding: 1px 1px 
+  text-align: center
+}
+
+td {
+  padding: 1px 5px 7px;
+  text-align: left;
 }
 
 label {
   display: block;
   font-size: 13px;
+}
+
+.flash-successfully {
+  color: #008000;
+}
+
+.field_with_errors {
+  
 }
