@@ -84,5 +84,5 @@ a:hover {
 }
 
 .field_with_errors {
-  
+  border-color: red;
 }
